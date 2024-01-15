@@ -7,7 +7,9 @@
 .common-text-color{
     color: #FF5400;
 }
-
+.common-bg-color{
+    background-color: #FF5400;
+}
 /* header section style */
 header{
     margin: 0px 120px;
@@ -17,6 +19,7 @@ nav{
     display: flex;
     justify-content: space-between;
     margin-top: 53px;
+    margin-bottom: 50px;
     align-items: center;
 
 }
@@ -39,11 +42,80 @@ nav a{
     font-size: 1.1rem;
     padding-left:35px;
 }
-header .banner{
+header .banner-section{
     background-image: url('../Images/group13.png');
+    width: 1100px;
+    height: 500px;
+    text-align: center;
+}
+.banner-section h1{
+    color: #FFF;
+    font-size: 4rem;
+    padding-top: 106px;
+}
+.banner-section p{
+    color: #FFF;
+    padding: 24px 247px 48px 247px;
+}
+.input-information{
+    padding: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    
 }
 
+.input-information button{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+
+}
+.banner-section .red-button{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background:#FF5400; 
+}
+/* main section style start here */
+main{
+    margin: 0px 120px;
+
+}
 /* Our Popular Tours section style */
 .popular-tour{
     display: flex;
+    gap: 50px;
+    margin-top: 100px;
+
 }
+.popular-tour h1{
+    color: #131318;
+    font-size: 2.5rem;
+
+}
+.popular-tour p{
+    color: rgba(19, 19, 24, 0.70);
+    padding: 24px; 
+
+}
+.ul-list{
+    padding:5px 50px;
+    color: rgba(19, 19, 24, 0.70);
+
+}
+.popular-tour button{
+    width: 174px;
+    height: 52px;
+    border-color: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    border-style: none;
+   
+}
+.mountent-img img{
+    width: 540px;
+    height: 550px;
+}
+
