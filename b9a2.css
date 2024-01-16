@@ -286,10 +286,35 @@ main{
     color: #FFF;
     font-size:2rem;
 }
+/* footer section style start here */
+footer{
+    margin-top: 100px;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+}
+footer  .logoAndTitle{
+    justify-content: center;
+    padding-top: 110px;
+}
+footer P{
+    color: #5A5A5D;
+    text-align: center;
+    padding-bottom: 24PX;
+
+}
+footer i{
+    padding: 23px;
+}
+footer hr{
+    margin: 0px 285px 50px 285px;
+    background: rgba(19, 19, 24, 0.10);
+
+}
 
 /* responsive design start */
 @media screen and (max-width:600px){
-nav , .popular-tour , .row , .card{
+nav , .popular-tour , .row , .card , .last-container{
         flex-direction: column;
     }
   .logoAndTitle{
@@ -316,5 +341,12 @@ nav , .popular-tour , .row , .card{
 .Service-heading{
     margin-left: 150px;
     width: 80%;
+}
+footer{
+    width: 100%;
+}
+footer hr {
+    margin: 0px 85px 30px 85px;
+
 }
 }
