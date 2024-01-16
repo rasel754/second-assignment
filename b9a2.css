@@ -35,15 +35,20 @@ nav{
     color: #131318;
     font-size: 2.25rem;
     padding-left: 17px;
-
+    
 }
 nav a{
     text-decoration: none;
     font-size: 1.1rem;
     padding-left:35px;
+   
 }
+nav ul li{
+    display: inline-block;
+}
+
 header .banner-section{
-    background-image: url('../Images/group13.png');
+    background-image: url('./Images/group13.png');
     width: 1100px;
     height: 500px;
     text-align: center;
@@ -107,7 +112,6 @@ main{
 .popular-tour button{
     width: 174px;
     height: 52px;
-    border-color: none;
     border-radius: 8px;
     color: #FFFFFF;
     font-size: 1.25rem;
@@ -118,4 +122,67 @@ main{
     width: 540px;
     height: 550px;
 }
+/* Destination-section style start here */
 
+.Destination-section{
+    margin-top: 100px;
+}
+.Destination-section h2{
+    color: #131318;
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+.Destination-section p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 45px;
+
+}
+
+.row{
+    display: flex;
+    gap:15px;
+}
+.Maldives , .Indonesia , .Srilanka ,.North-America ,
+  .Kashmir , .Bangladesh , .Bandarban{
+    position: relative;
+    text-align: center;
+    color: #FFF;
+    font-size: 1.75rem;
+}
+.img-header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+/* responsive design start */
+@media screen and (max-width:600px){
+nav , .popular-tour , .row {
+        flex-direction: column;
+    }
+  .logoAndTitle{
+    width: 100%;
+  }
+  header main{
+    margin: 20px 0px;
+  }
+  nav ul li {
+    display:block;
+}
+.banner-section {
+    width: 100%;
+    height: 100%;
+}
+.input-information{
+    display: grid;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+}
